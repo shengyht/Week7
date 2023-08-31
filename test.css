@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    padding: 20px;
+}
+
+.wrap li{
+    padding:10px;
+    border:1px black solid;
+}
+body {
+    font-family: 'Castoro', serif;
+    line-height: 1.5;
+    font-size: 24px;
+   }
+   * {
+    box-sizing:border-box;
+   }
+   .container{
+       margin: 0 auto;
+       max-width:1296px;
+   }
+  .header{
+    padding-top:160px;
+  }
+   .title{
+       font-size: 128px;
+   }
+   .margin-left{
+       width:622px;
+       margin-left:auto;
+   }
+   .profile{
+       display:block;
+       margin: 0 auto;
+       width: 636px;
+       height: 848px;	
+   }
+   .content{
+       background-color:#EFEFEF;
+   }
+   .content-p{
+       width:636px;
+       font-size: 32px;
+       padding: 48px 0;
+   }
+   .intro{
+    margin-top:80px;
+    margin-bottom:160px;
+}
+   .subject{
+       color:#AE0000;
+       font-size: 40px;
+       border-bottom: 3px solid #AE0000;
+       width:636px;
+   }
+   .info{
+       padding-top:16px;
+       padding-bottom: 40px;
+       width:636px;
+   }
+   .info-a{
+       padding-bottom:8px;
+       text-decoration: none;
+       color:black;
+   }
+   .info-content{
+       text-decoration: none;
+       color:black;
+       padding-bottom:16px;
+   }
+   .pb-0{
+       padding-bottom: 0px;
+       text-decoration: none;
+       color:black;
+   }
+   .info-li{
+       padding-bottom: 12px;
+   }
+   .time{
+       font-size: 20px;
+       color:#949494;
+       font-style: italic;
+   }
+   .footer{
+       background-color: black;
+       padding-top:64px;
+       padding-bottom: 64px;
+       text-align: center;
+   }
+   .footer ul{
+       display: flex;
+       justify-content: center;
+   }
+   .icon{
+       margin-right: 40px;
+       height: 64px;
+       width: 64px;
+   }
